@@ -331,7 +331,7 @@ export default function Home() {
 
             <div>
               <h4 className="font-semibold mb-4">지역</h4>
-              <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
+              <ul className="flex gap-4 text-gray-400 text-sm sm:text-base">
                 <li><a href="#" className="hover:text-white transition-colors">서울</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">경기</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">인천</a></li>
