@@ -14,19 +14,19 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* 헤더 */}
-      <header className="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 border-b border-gray-100 shadow-sm">
+      <header className="fixed top-0 w-full z-50 border-b border-gray-100 shadow-sm" style={{ backgroundColor: '#FAF9F5' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <div className="flex items-center">
-                  <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-white font-bold text-sm">신</span>
-                  </div>
-                  <h1 className="text-xl font-bold text-gray-900">
-                    신독환경
-                  </h1>
-                </div>
+              <div className="flex-shrink-0" style={{ backgroundColor: '#FAF9F5' }}>
+                <Image
+                  src="/image/신독환경 1.PNG"
+                  alt="신독환경"
+                  width={120}
+                  height={40}
+                  className="h-10 w-auto"
+                  priority
+                />
               </div>
             </div>
             <nav className="hidden md:block">
