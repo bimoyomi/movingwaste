@@ -1,9 +1,24 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 유품정리
 
-## Getting Started
+신독환경 유품정리 전문 업체 웹사이트
 
-First, run the development server:
+배포: [sdenvec.vercel.app](https://sdenvec.vercel.app)
+
+## 프로젝트 소개
+
+혼자서는 힘든 유품정리 서비스를 제공하는 웹사이트입니다. 남겨진 물건 하나하나 정성껏, 전문가가 책임지고 정리해드립니다.
+
+## 기술 스택
+
+- [Next.js](https://nextjs.org) 15.4.4
+- React 19.1.0
+- TypeScript
+- Tailwind CSS 4
+- Vercel 배포
+
+## 시작하기
+
+개발 서버 실행:
 
 ```bash
 npm run dev
@@ -15,27 +30,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 확인하세요.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+페이지는 `src/app/page.tsx`를 수정하면 자동으로 업데이트됩니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 배포
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# octionhouse
-경매 낙찰 집 정리
->>>>>>> 9222d52f32c4f380fc4e95c7a7432880b0c70694
+이 프로젝트는 [Vercel Platform](https://vercel.com)에 배포되어 있습니다.
