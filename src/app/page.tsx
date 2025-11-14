@@ -75,14 +75,24 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             <div className="text-center sm:text-left">
               <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                혼자서는 힘든 <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">유품정리,</span>
-                <br />
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">걱정만 쌓여가고 계신가요?</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">이사 폐기물,</span> 사진 보내면<br />
+                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">추가요금 0원</span> <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">확정가</span>로<br />
+                바로 처리해드립니다.
               </h1>
-              <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
-                남겨진 물건 하나하나 정성껏,<br />
-                전문가가 책임지고 정리해드립니다.
-              </p>
+              <div className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed space-y-4">
+                <p>
+                  누적 <span className="font-bold">1,000건</span> 이상 처리, 숨고 만족도 <span className="font-bold">4.9점</span>의<br />
+                  <span className="font-bold underline">10년 경력 전문팀</span>입니다.
+                </p>
+                <p>
+                  견적과 실제 금액이 달라지는 불안을 없애기 위해<br />
+                  <span className="font-bold underline">100% 사전 확정가 정책</span>만 운영합니다.
+                </p>
+                <p>
+                  사진만 보내주시면 현장에서 <span className="font-bold underline">추가요금 없이</span><br />
+                  사진 기준 그대로 안내해드립니다.
+                </p>
+              </div>
               
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -94,6 +104,62 @@ export default function Home() {
 
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* 추가요금 없는 이유 섹션 */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 px-4">
+              "왜 추가요금이 발생할까요?"
+            </h2>
+            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+              많은 업체들이 <span className="text-yellow-600 font-semibold">저가로 견적 제시 → 현장 추가요금 폭탄</span>으로 운영됩니다.<br />
+              우리는 이런 구조를 막기 위해 다음 기준으로만 운영합니다.
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-8 sm:p-10 shadow-sm border border-indigo-100 mb-8">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 text-center">
+                우리가 추가요금이 없는 이유
+              </h3>
+              <p className="text-lg text-gray-700 text-center mb-8">
+                추가요금으로 고통받는 고객의 마음을 알기 때문입니다.
+              </p>
+
+              <div className="space-y-6">
+                {/* 사진 기반 사전 확정가 시스템 */}
+                <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+                  <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 flex items-center">
+                    <span className="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">1</span>
+                    사진 기반 사전 확정가 시스템
+                  </h4>
+                  <p className="text-gray-600 leading-relaxed ml-11">
+                    고객이 보낸 사진을 기반하여 10년의 노하우로 실제 투입 인력·차량·공간 계산 후 확정가 안내
+                  </p>
+                </div>
+
+                {/* 작업 프로세스 영상·사진 기록 */}
+                <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+                  <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 flex items-center">
+                    <span className="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">2</span>
+                    작업 프로세스 영상·사진 기록
+                  </h4>
+                  <p className="text-gray-600 leading-relaxed ml-11">
+                    고객은 항상 투명성을 확인 가능
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg p-6 sm:p-8">
+              <p className="text-gray-700 leading-relaxed">
+                <span className="font-semibold text-gray-900">단,</span> 사진에 없는 추가 물량이 있을 때만 예외적으로 비용이 발생합니다.
+              </p>
+            </div>
           </div>
         </div>
       </section>
