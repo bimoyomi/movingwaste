@@ -113,7 +113,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 px-4">
-              "왜 추가요금이 발생할까요?"
+              &quot;왜 추가요금이 발생할까요?&quot;
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
               많은 업체들이 <span className="text-yellow-600 font-semibold">저가로 견적 제시 → 현장 추가요금 폭탄</span>으로 운영됩니다.<br />
