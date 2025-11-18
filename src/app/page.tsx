@@ -127,7 +127,7 @@ export default function Home() {
                 우리가 추가요금이 없는 이유
               </h3>
               <p className="text-lg text-gray-700 text-center mb-8">
-                추가요금으로 고통받는 고객의 마음을 알기 때문입니다.
+                추가요금으로 고통받는 고객님의 마음을 알기 때문입니다.
               </p>
 
               <div className="space-y-6">
@@ -138,7 +138,7 @@ export default function Home() {
                     사진 기반 사전 확정가 시스템
                   </h4>
                   <p className="text-gray-600 leading-relaxed ml-11">
-                    고객이 보낸 사진을 기반하여 10년의 노하우로 실제 투입 인력·차량·공간 계산 후 확정가 안내
+                    고객님이 보낸 사진을 기반하여 10년의 노하우로 실제 투입 인력·차량·공간 계산 후 확정가 안내
                   </p>
                 </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
                     작업 프로세스 영상·사진 기록
                   </h4>
                   <p className="text-gray-600 leading-relaxed ml-11">
-                    고객은 항상 투명성을 확인 가능
+                    고객님은 항상 투명성을 확인 가능
                   </p>
                 </div>
               </div>
@@ -306,7 +306,7 @@ export default function Home() {
               실제 사례 / 후기
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-              고객님들의 생생한 후기를 확인해보세요
+              고객님님들의 생생한 후기를 확인해보세요
             </p>
           </div>
           
@@ -355,7 +355,7 @@ export default function Home() {
             전화나 문자로 무료 견적 받고<br className="block sm:hidden" /><span className="hidden sm:inline"> </span>시작하세요
           </h2>
           <p className="text-lg sm:text-xl text-indigo-100 mb-8 px-4">
-            전문 상담사가 빠르고 정확한 견적을<br className="block sm:hidden" /><span className="hidden sm:inline"> </span>제공해드립니다
+            전문가가 빠르고 정확한 견적을<br className="block sm:hidden" /><span className="hidden sm:inline"> </span>제공해드립니다
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
             <button 
