@@ -35,7 +35,7 @@ export default function Home() {
                   홈
                 </a>
                 <a href="#service" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
-                  정리 서비스
+                  이사 폐기물 서비스
                 </a>
                 <a href="#reviews" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
                   후기
@@ -98,7 +98,7 @@ export default function Home() {
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="bg-indigo-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:bg-indigo-700 transition-colors duration-200 shadow-lg cursor-pointer w-full sm:w-auto"
               >
-                정리 서비스 시작하기
+                이사 폐기물 처리 시작하기
               </button>
               
 
@@ -169,7 +169,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 px-4">
-              정리 서비스를 3단계로 완료합니다
+              이사 폐기물 처리를 3단계로 완료합니다
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto px-4">
               간단한 상담만으로 시작할 수 있습니다
@@ -199,8 +199,8 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4">전문팀 방문</h3>
                 <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                  약속된 시간에 전문 정리팀이 방문하여<br />
-                  체계적으로 정리를 시작합니다.
+                  약속된 시간에 전문 이사 폐기물 처리팀이 방문하여<br />
+                  체계적으로 처리를 시작합니다.
                 </p>
               </div>
             </div>
@@ -213,7 +213,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4">완료 및 확인</h3>
                 <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                  하루 만에 모든 정리가 완료되고,<br />
+                  하루 만에 모든 이사 폐기물 처리가 완료되고,<br />
                   깔끔한 공간을 확인하세요.
                 </p>
               </div>
@@ -230,7 +230,7 @@ export default function Home() {
               Before / After
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-              전문팀이 방문해 빈 공간으로 바꿔드립니다
+              전문팀이 방문해 이사 폐기물을 처리하고 빈 공간으로 바꿔드립니다
             </p>
           </div>
           
@@ -258,7 +258,7 @@ export default function Home() {
                     </div>
                     <div className="flex items-start">
                       <div className="w-2 h-2 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-600 text-sm sm:text-base">정리하기 어려운 상태</span>
+                      <span className="text-gray-600 text-sm sm:text-base">이사 폐기물 처리하기 어려운 상태</span>
                     </div>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ export default function Home() {
                   <div className="space-y-2 text-left">
                     <div className="flex items-start">
                       <div className="w-2 h-2 bg-indigo-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-600 text-sm sm:text-base">깔끔하게 정리된 공간</span>
+                      <span className="text-gray-600 text-sm sm:text-base">깔끔하게 이사 폐기물 처리된 공간</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-2 h-2 bg-indigo-400 rounded-full mr-3 mt-2 flex-shrink-0"></div>
@@ -389,7 +389,7 @@ export default function Home() {
               <p className="text-gray-400 text-sm sm:text-base">
                 보이지 않는 곳에서 성실하게,
                 <br />
-                유품정리 전문 업체입니다.
+                이사 폐기물 전문 업체입니다.
               </p>
             </div>
 
